@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Breakup - Compress</title>
+</head>
+
+<body>
+    <div class="container">
+        <form method="POST" action="/home" enctype="multipart/form-data" class="">
+            <div class="">
+                <div class="">
+                    <input type="file" class="custom-file-input" id="" name="file" accept="image/*" required>
+                    <label class="custom-file-label center-label" for="customFile"></label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Compress and Download</button>
+        </form>
+        <img src="" class="selected-image d-none" id="selectedImage" alt="">
+    </div>
+    <!-- JS to display selected image -->
+    <script src="{{url_for("static", filename="image-display.js")}}"></script>
+</body>
+
+</html>

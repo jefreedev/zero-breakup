@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Zero Breakup - Welcome</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="{{ url_for("static", filename="/vendor/bootstrap/css/bootstrap.min.css" )}}">
+    <link rel="stylesheet" href="{{ url_for("static", filename="/vendor/bootstrap-icons/css/bootstrap-icons.css" )}}">
+    <link rel="stylesheet" href="{{ url_for("static", filename="/vendor/boxicons/css/boxicons.min.css" )}}">
+    <link rel="stylesheet" href="{{ url_for("static", filename="/vendor/glightbox/css/glightbox.min.css" )}}">
+    <link rel="stylesheet" href="{{ url_for("static", filename="/vendor/swiper/swiper-bundle.min.css" )}}">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="{{ url_for("static", filename="main.css" )}}">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+
+            <div class="logo me-auto">
+                <h1><a href="#">ZeroBreakup</a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+            <div class="header-social-links d-flex align-items-center">
+                <a target="_blank" href="https://www.twitter.com/papaskripto/" class="twitter"><i
+                        class="bx bxl-twitter"></i></a>
+                <a target="_blank" href="https://www.github.com/papaskripto" class="github"><i
+                        class="bx bxl-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/papaskripto/" class="linkedin"><i
+                        class="bx bxl-linkedin"></i></a>
+            </div>
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="container text-center text-md-left" data-aos="fade-up">
+            <h1>Welcome to <span>Zero Breakup</span></h1>
+            <h2>Experience the magic of our image compression algorithm – we make your images smaller in size. You're
+                Welcome!
+            </h2>
+            <a href="/home" class="btn-get-started scrollto">Get Started</a>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="{{ url_for("static", filename="Image/about.jpg" )}}" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <h3>About Us</h3>
+                        <p>
+                            Here at Zero Breakup, we're dedicated to revolutionizing image compression, reducing image
+                            sizes without
+                            compromising quality. Join us in the journey where we make your images smaller in size.
+                        </p>
+                        <ul>
+                            <li><i class="bx bx-check-double"></i> Our algorithm intelligently analyzes each image,
+                                adapting
+                                compression techniques to retain maximum quality</li>
+                            <li><i class="bx bx-check-double"></i> Experience swift, real-time image compression
+                                tailored for video
+                                streaming, mobile applications, and more.</li>
+                        </ul>
+                        <div class="row icon-boxes">
+                            <div class="col-md-6">
+                                <i class="bx bx-receipt"></i>
+                                <h4>Cloud Storage Integration</h4>
+                                <p>Seamlessly compress and store your images in the cloud, optimizing your digital
+                                    assets for easy
+                                    access and sharing</p>
+                            </div>
+                            <div class="col-md-6 mt-4 mt-md-0">
+                                <i class="bx bx-cube-alt"></i>
+                                <h4>Local Storage Convenience</h4>
+                                <p>Effortlessly compress and store images on your local devices, saving space without
+                                    sacrificing
+                                    quality.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+        <!-- ======= Counts Section ======= -->
+        <!--<section id="counts" class="counts">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-6">
+                        <div class="count-box">
+                            <i class="bi bi-emoji-smile"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6">
+                        <div class="count-box">
+                            <i class="bi bi-download"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Total Uploads</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                            <i class="bi bi-headset"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Hours Of Support</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>--><!-- End Counts Section -->
+
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Testimonials</h2>
+                    <p>Hear what our clients have to say.</p>
+                </div>
+
+                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>I can't believe the incredible
+                                    results we've
+                                    achieved with Zero Breakup. Their image compression algorithm has not only made our
+                                    website
+                                    lightning fast, but the image quality is exceptional. It's a game-changer!
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="{{ url_for("static", filename="Image/testimonials/tst.jpg" )}}"
+                                    class="testimonial-img" alt="">
+                                <h3>John Doe</h3>
+                                <h4>Client</h4>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>As a photographer, image
+                                    quality is paramount.
+                                    Zero Breakup impressed me with their commitment to preserving image quality while
+                                    reducing file
+                                    sizes. It's a must-have tool for anyone in the industry
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="{{ url_for("static", filename="Image/testimonials/tst.jpg" )}}"
+                                    class="testimonial-img" alt="">
+                                <h3>John Doe</h3>
+                                <h4>Client</h4>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>We've integrated Zero Breakup's
+                                    algorithm
+                                    into our systems, and the results have been remarkable. It's improved our data
+                                    storage efficiency,
+                                    saving us both time and money. Their technology is a genuine asset.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="{{ url_for("static", filename="Image/testimonials/tst.jpg" )}}"
+                                    class="testimonial-img" alt="">
+                                <h3>John Doe</h3>
+                                <h4>Client</h4>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>I've tried countless image
+                                    compression tools, but
+                                    Zero Breakup's stands out. It's incredibly user-friendly, and the before-and-after
+                                    differences
+                                    are mind-blowing. I can confidently recommend it to my followers.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="{{ url_for("static", filename="Image/testimonials/tst.jpg" )}}"
+                                    class="testimonial-img" alt="">
+                                <h3>John Doe</h3>
+                                <h4>Client</h4>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section><!-- End Testimonials Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>ZeroBreakup</h3>
+                        <p>
+                            Pipeline, Embakasi <br>
+                            Nairobi, Kenya<br>
+                            <strong>Phone:</strong> +254 755 846298<br>
+                            <strong>Email:</strong> bygeoffreyouma@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Zero Breakup</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a target="_blank" href="https://www.github.com/papaskripto">papaskripto</a>
+                </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                <a target="_blank" href="https://www.twitter.com/papaskripto/" class="twitter"><i
+                        class="bx bxl-twitter"></i></a>
+                <a target="_blank" href="https://www.github.com/papaskripto" class="github"><i
+                        class="bx bxl-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/papaskripto/" class="linkedin"><i
+                        class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <!-- Vendor JS Files -->
+    <script src="{{ url_for("static", filename="/vendor/purecounter/purecounter_vanilla.js" )}}"></script>
+    <script src="{{ url_for("static", filename="/vendor/bootstrap/js/bootstrap.bundle.min.js" )}}"></script>
+    <script src="{{ url_for("static", filename="/vendor/glightbox/js/glightbox.min.js" )}}"></script>
+    <script src="{{ url_for("static", filename="/vendor/isotope-layout/isotope.pkgd.min.js" )}}"></script>
+    <script src="{{ url_for("static", filename="/vendor/swiper/swiper-bundle.min.js" )}}"></script>
+    <script src="{{ url_for("static", filename="/vendor/waypoints/noframework.waypoints.js" )}}"></script>
+    <script src="{{ url_for("static", filename="/vendor/php-email-form/validate.js" )}}"></script>
+
+
+    <!-- Main JS File -->
+    <script src="{{ url_for("static", filename="main.js" )}}"></script>
+
+</body>
+
+</html>
